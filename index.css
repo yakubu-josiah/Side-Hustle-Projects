@@ -1,0 +1,86 @@
+.Head{
+  display: flex;
+  border: 4px solid rgba(167, 152, 152, 0.829);
+  margin: 0 auto;
+  align-items: center;
+  height: 130px;
+  background: #a06868ef;
+  color: rgb(228, 211, 211);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: inset 0 -1px 18px 2px rgba(49, 2, 2, 0.5);
+}
+header{
+  margin: auto 0;
+  width: 40%;
+  justify-content: center;
+}
+#head p{
+  font-family: cursive;
+  width: 100%;
+  text-align: center;
+  min-width: 250px;
+  margin: auto 0;
+}
+header p #Jb-Tl{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav{
+  margin: 3%;
+  text-align: right;
+  width: 50%;
+  font-size: small;
+  height: 80%;
+  min-width: 350px;
+}
+.nav ul{
+  list-style: none;
+}
+.nav a{
+  text-decoration: none;
+}
+.Experience{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: 5px solid rgba(167, 152, 152, 0.829);
+  background: #cac8c8ef;
+  box-shadow: inset -1px -1px 12px 6px rgba(49, 2, 2, 0.5);
+
+}
+hr{
+  height: 12px;
+  border: 0;
+  border-radius: 12px;
+  box-shadow: inset 2px -8px 10px -6px rgb(90, 6, 6);
+}
+section{
+  width: 70%;
+  margin: 0 2px;
+  padding: 0 20px;
+  border-radius: 50px;
+}
+aside{
+  width: 40%;
+  margin: 0 auto;
+  background: #ebbea9;
+  border-width: 10px;
+  border-left: 20px solid rgba(167, 152, 152, 0.829);
+  border-right: 16px solid rgba(167, 152, 152, 0.829);
+  box-shadow: inset -1px -8px -3px -12px rgba(0, 0, 0, 0.5);
+}
+aside h2{
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+  font-size: small;
+  text-align: center; 
+  height: 30px;
+  padding-top: 30px;
+
+}
+ul, ol{
+  list-style-position: outside;
+  list-style-type: "~*~ ";
+}
+h2~#Prs_Hgl, h2~#Skl, h2~#Lng{
+  background: aqua;
+}
